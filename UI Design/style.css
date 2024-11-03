@@ -1,0 +1,58 @@
+/* Background untuk form dan container lainnya */
+.container {
+    background-color: #f5f7fa; /* Warna abu-abu lembut */
+    border-radius: 8px;
+    padding: 2rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Efek shadow */
+}
+
+/* Style untuk tombol */
+.btn-primary {
+    background: linear-gradient(135deg, #00b4db, #0083b0); /* Gradien biru */
+    border: none;
+}
+.btn-primary:hover {
+    background: linear-gradient(135deg, #0083b0, #005f73); /* Gradien saat hover */
+}
+
+/* Navbar dengan aksen biru tua */
+.navbar {
+    background: linear-gradient(135deg, #1f4037, #99f2c8); /* Warna gradien hijau gelap ke hijau terang */
+}
+
+/* Footer */
+footer {
+    background: #1f4037; /* Warna hijau gelap */
+}
+
+/* Warna teks */
+.text-center {
+    color: #34495e; /* Warna abu-abu gelap untuk heading */
+}
+
+/* Gaya untuk carousel */
+.carousel-item img {
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); /* Efek shadow pada gambar */
+}
+
+/* Card testimoni */
+.card {
+    border: none;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+.card:hover {
+    transform: scale(1.05);
+}
+.card-title {
+    color: #0083b0; /* Warna biru untuk judul testimoni */
+}
+.card-text {
+    color: #555; /* Warna abu-abu */
+}
+
+/* Background warna untuk body */
+body {
+    background-color: #eaf2f8; /* Biru muda */
+}
